@@ -1,0 +1,11 @@
+Name,apiUrl
+Designer Login Page,/sl/designer.html
+Manager Login Page,/sl/manager.html
+Dashboard Login Page,/sl/dashboard.html
+Snaplex,/api/1/rest/slserver/snaplex_cc_details_with_info?subscriber_id=<orgName>
+Manager Asset,/api/1/rest/asset/tree/<orgName>
+DesignerPage Asset,/api/1/rest/admin/snappack/api_versions/<orgName>
+Dashboard Asset,/api/1/rest/asset/<orgName>
+DesignerPermission,/api/1/rest/asset/tree/<orgName>?perm_filter=R
+DesignerPlex,/api/1/rest/plex/org/<orgName>
+DesignerSnapCatalog,/api/1/rest/admin/snappack/catalog/snaps?org_path=<orgName>&level=detail
